@@ -8,5 +8,5 @@ ey_cloud_report "set_tz" do
 end
 
 execute "set timezone" do
-  command "ln -s /usr/share/zoneinfo/CST6CDT /etc/localtime"
+  command "ln -sf /usr/share/zoneinfo/CST6CDT /etc/localtime"
 end
