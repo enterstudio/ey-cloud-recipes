@@ -2,6 +2,11 @@
 # Cookbook Name:: update_sphinx
 # Recipe:: default
 #
+
+ey_cloud_report "update_sphinx" do
+  message "ensuring sphinx 0.9.9 is installed and is the default sphinx"
+end
+
 execute "add-sphinx-version-to-emerge-list" do
   command %Q{
     emerge --sync
