@@ -58,3 +58,4 @@
 #require_recipe "eybackup_verbose"
 
 require_recipe "update_sphinx"
+require_recipe "set_tz"
